@@ -33,16 +33,16 @@ public class AccessModifiers extends Y {
 	private int student1 = 40;
 
 	// private access modifiers
-	private void msg4() {
+	private static void msg4() {
 		System.out.println("Hello I am private access modifier");
 	}
 
 	public static void main(String args[]) {
 
-		System.out.println("Hello I am a private access modifier");
+		msg4();
 
 		School s = new School();
-		
+
 		// for private access modifier
 //		System.out.println(s.student);
 //		s.msg();
@@ -52,7 +52,7 @@ public class AccessModifiers extends Y {
 		x.msg1();
 
 		// for protected access modifiers
-		Y y = new Y();
+		AccessModifiers y = new AccessModifiers();
 		y.msg2();
 
 		// for public access modifiers
