@@ -19,6 +19,21 @@ EMPIREHOME
 http://empirehome.myprojectsonline.co.in/
 sureshbabuemp@gmail.com
 ZPMHQHIA
+EHOME project is final
+
+
+
+jenkins 
+password - 2e2af3a9127a49b99ac5787a7b5fcf45
+
+username- admin
+password - 123456789
+
+jenkins war command - to see the steps to create  local host
+
+open cmd at jenkins war download location and type --- java -jar jenkins.war
+ http://localhost:8080
+
 
 
 
