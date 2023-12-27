@@ -6,6 +6,7 @@ abstract class Bike {
 
 	void changeGear() {
 		System.out.println("gear changed");
+	
 	}
 }
 
